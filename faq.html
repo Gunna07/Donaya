@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frequently Asked Questions | Crown & Contour Escapes</title>
+  <meta name="description" content="Everything you need to know about booking custom luxury escapes, group trip payment plans, concert packages (Chris Brown, Usher), travel insurance, and travel mentorship with Donaya.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/crown.svg">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="display: none !important;">
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-item">
+        <span>👑</span>
+        <strong>CLEAR & TRANSPARENT LUXURY TRAVEL PLANNING</strong>
+      </div>
+      <div class="top-bar-item">
+        <span>✨</span>
+        <span>HAVE QUESTIONS? DM <strong>"ESCAPE"</strong> OR</span>
+        <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener">Book on Jotform</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo" aria-label="Crown and Contour Escapes Home">
+        <img src="assets/icons/crown.svg" alt="Crown Logo" class="logo-icon-svg">
+        <div class="logo-text-group">
+          <span class="logo-title">CROWN & CONTOUR</span>
+          <span class="logo-subtitle">Escapes</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services & Packages</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="business.html" class="nav-link">Join The Team</a></li>
+          <li><a href="faq.html" class="nav-link active">FAQs</a></li>
+          <li><a href="contact.html" class="nav-link">Get In Touch</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-gem"></i>
+          <span>Book Escape</span>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle mobile menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <img src="assets/icons/crown.svg" alt="Crown Logo" class="logo-icon-svg">
+          <div class="logo-text-group">
+            <span class="logo-title">CROWN & CONTOUR</span>
+            <span class="logo-subtitle">Escapes</span>
+          </div>
+        </div>
+        <button class="drawer-close" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <ul class="drawer-menu">
+        <li><a href="index.html" class="drawer-link">Home</a></li>
+        <li><a href="services.html" class="drawer-link">Services & Packages</a></li>
+        <li><a href="about.html" class="drawer-link">About</a></li>
+        <li><a href="business.html" class="drawer-link">Join The Team</a></li>
+        <li><a href="faq.html" class="drawer-link active">FAQs</a></li>
+        <li><a href="contact.html" class="drawer-link">Get In Touch</a></li>
+      </ul>
+    </div>
+    <div class="drawer-footer">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-plane-departure"></i> Plan My Escape
+      </a>
+      <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-gold" style="width: 100%;">
+        <i class="fa-solid fa-calendar-check"></i> Instant Jotform Booking
+      </a>
+    </div>
+  </aside>
+
+  <!-- Page Hero with Interactive Search -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-angle-right" style="font-size: 0.75rem;"></i>
+        <span>Frequently Asked Questions</span>
+      </div>
+      <span class="badge badge-gold" style="margin-bottom: 0.75rem;">ROYAL TRAVEL INTEL & CLARITY 👑</span>
+      <h1 class="section-title">Frequently Asked <span class="gradient-pink">Questions</span></h1>
+      <p class="section-desc" style="max-width: 680px; margin: 0 auto;">
+        Everything you need to know about booking, group payment splits, concert tours, 5-star upgrades, and travel entrepreneurship.
+      </p>
+
+      <!-- Live Search Box -->
+      <div class="faq-search-wrapper">
+        <div class="faq-search-input-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="faqSearchInput" class="faq-search-input" placeholder="Search questions (e.g. deposits, roommates, Chris Brown, insurance, commissions)..." aria-label="Search FAQs">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Category Filter & Accordion Section -->
+  <section style="padding: 2rem 0 6rem;">
+    <div class="container" style="max-width: 920px;">
+
+      <!-- Category Filter Pills -->
+      <div class="faq-category-nav">
+        <button class="faq-cat-btn active" data-cat="all">All Topics</button>
+        <button class="faq-cat-btn" data-cat="booking">Booking Process</button>
+        <button class="faq-cat-btn" data-cat="groups-payments">Group Trips & Payments</button>
+        <button class="faq-cat-btn" data-cat="events">Concert & VIP Events</button>
+        <button class="faq-cat-btn" data-cat="hotels-flights">Flights & Stays</button>
+        <button class="faq-cat-btn" data-cat="policies">Protection & Policies</button>
+        <button class="faq-cat-btn" data-cat="business">Business Mentorship</button>
+        <button class="faq-cat-btn" data-cat="studios">Beauty Studios</button>
+      </div>
+
+      <!-- No Results Feedback -->
+      <div id="noFaqResults" class="no-faq-results">
+        <i class="fa-solid fa-circle-question text-pink" style="font-size: 2.5rem; margin-bottom: 1rem;"></i>
+        <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem;">No matching questions found</h3>
+        <p style="color: var(--color-muted); margin-bottom: 1.5rem;">Try a different keyword or reach out directly to Donaya for instant assistance.</p>
+        <a href="contact.html" class="btn btn-outline-pink btn-sm">Ask Donaya Directly</a>
+      </div>
+
+      <!-- ==========================================
+           BLOCK 1: BOOKING & CUSTOM ITINERARIES
+           ========================================== -->
+      <div class="faq-category-block" data-block-cat="booking">
+        <div class="faq-category-title-group">
+          <div class="faq-category-heading">
+            <i class="fa-solid fa-compass text-pink"></i>
+            <span>Booking & Custom Itineraries</span>
+          </div>
+          <span class="badge badge-pink">5 Questions</span>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How does the booking process with Crown & Contour Escapes work?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>It starts with your initial vibe check! You can either complete our <a href="contact.html" class="text-pink">Custom Inquiry Form</a> or submit the official <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="text-gold">Jotform Portal</a>. Donaya reviews your desired dates, destination ideas, party size, and vibe, then crafts a bespoke proposal with 2–3 curated flight, villa/hotel, and VIP activity options. Once you pick your favorite, we lock in reservations, secure upgrades, coordinate payment schedules, and deliver your day-by-day itinerary app.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How far in advance should I start planning my getaway?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>For international getaways, private luxury villas (Turks & Caicos, Cabo, Bora Bora), and groups of 4 or more, we strongly recommend beginning <strong>3 to 6 months in advance</strong>. For holiday travel (Thanksgiving, Christmas, New Year's, Spring Break), <strong>6 to 9 months</strong> ensures the best flight schedules and premium room categories. For major concert tours, reach out immediately upon tour announcement so we can secure tickets before tier pricing skyrockets.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is the difference between booking with Donaya vs. booking myself online?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Booking online on Expedia or Airbnb means doing 30+ hours of tedious research, risking non-refundable bad stays, having zero advocates when flights cancel, and coordinating stressful group payments yourself. With Donaya, you enjoy the <em>Soft Life</em> standard: zero planning headaches, access to vetted 5-star properties, complimentary room upgrades, daily breakfast perks, $100 resort credits, individualized group payment links, and a dedicated travel specialist handling any disruptions 24/7.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you curate both international and domestic USA vacations?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! We curate high-end escapes worldwide—including the Caribbean (Turks & Caicos, St. Thomas, Jamaica, St. Barths), Europe (Paris, Santorini, Amalfi Coast), UAE (Dubai, Abu Dhabi), and Asia (Bali)—as well as luxury domestic getaways (Miami Beach penthouses, Las Vegas VIP weekends, Atlanta concert trips, Scottsdale retreats, and Hawaii).</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can I customize or request changes to my travel proposal?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. We never offer one-size-fits-all travel. Every proposal includes revision rounds where we can adjust hotel styles, flight cabins (Economy vs. First Class), excursion pacing, and dining reservations until the itinerary fits your vision seamlessly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           BLOCK 2: GROUP TRIPS & PAYMENT PLANS
+           ========================================== -->
+      <div class="faq-category-block" data-block-cat="groups-payments">
+        <div class="faq-category-title-group">
+          <div class="faq-category-heading">
+            <i class="fa-solid fa-users text-gold"></i>
+            <span>Group Trips & Payment Plans</span>
+          </div>
+          <span class="badge badge-gold">4 Questions</span>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How do individual payment links work for Girls Trips & Birthdays?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Nobody in your group has to put the entire trip on their credit card or awkwardly chase down friends for Venmo payments! We establish individual payment profiles for each guest. Every traveler receives her own private payment link and schedule to pay her deposit and balance directly into the reservation portal.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you offer low deposit options and flexible payment plans?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! The majority of our resort packages, vacation villas, and cruise itineraries qualify for low deposits—often starting at just $150 to $250 per person depending on the supplier. You can spread the remaining balance across flexible monthly installments up until 30 to 45 days prior to departure.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What happens if one of our friends drops out of a group booking?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Group dynamics happen! Depending on when the change occurs, we can help replace the traveler's name on hotel and activity reservations or re-calculate the shared occupancy smoothly. We also highly recommend that each traveler secures travel protection so non-refundable portions can be claimed if an emergency arises.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can you plan surprise baecations, anniversary setups, or proposals?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, romantic celebrations are our specialty! We coordinate private beach dinners by candlelight, chilled champagne and strawberry arrivals, flower arrangements, private drone photographers, and sunset catamaran cruises while keeping all communication confidential so your partner stays surprised until the big reveal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           BLOCK 3: CONCERTS & VIP EVENTS
+           ========================================== -->
+      <div class="faq-category-block" data-block-cat="events">
+        <div class="faq-category-title-group">
+          <div class="faq-category-heading">
+            <i class="fa-solid fa-ticket text-pink"></i>
+            <span>Concerts & VIP Event Packages</span>
+          </div>
+          <span class="badge badge-pink">4 Questions</span>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How do your Concert & Event Packages work (Chris Brown, Usher & more)?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Our concert packages take the hassle out of star tours! We bundle guaranteed premium tickets (Floor, Lower Bowl, or Luxury Suite), high-end hotel accommodations located minutes from the venue, optional round-trip flights, private airport chauffeur transfers, and curated VIP nightlife or after-party reservations.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What if a concert or festival is officially sold out?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Through our vetted luxury concierge networks and verified supplier partners, we have access to corporate suite allocations, VIP hospitality packages, and verified ticket inventory that is held specifically for premium travel packages.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Are tickets guaranteed authentic?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, 100%. We only source tickets through verified licensed primary and official secondary partners with full buyer protection and authenticity guarantees.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can I book a concert package for a birthday or girls trip?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! Combining a major concert with a birthday or girls weekend is one of our most popular requests. We coordinate matching hotel suites, pre-concert glam sessions, dinner reservations, and nightlife bottle service alongside the show.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           BLOCK 4: FLIGHTS, HOTELS & VILLAS
+           ========================================== -->
+      <div class="faq-category-block" data-block-cat="hotels-flights">
+        <div class="faq-category-title-group">
+          <div class="faq-category-heading">
+            <i class="fa-solid fa-hotel text-gold"></i>
+            <span>Flights, Hotels & Luxury Villas</span>
+          </div>
+          <span class="badge badge-gold">4 Questions</span>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What exclusive perks do I receive at partner 5-star hotels?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Through our luxury supplier affiliations, our clients frequently receive: complimentary room upgrades upon arrival (subject to availability), daily complimentary breakfast for two, $100 food & beverage or spa credits, early check-in and late checkout privileges, and welcome champagne amenities.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can you arrange private luxury villas with private chefs?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! We partner with vetted luxury villa collections throughout the Caribbean (Turks & Caicos, St. Barths, Jamaica, Barbados) and Mexico. We can staff your villa with a private gourmet chef, daily housekeeping, butler service, and pre-arrival grocery stocking.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you book First Class, Business Class, and private charters?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We curate commercial airline flights across all cabin tiers—including First Class, Business Class, and Premium Economy—and can arrange private jet charter connections or helicopter island transfers upon request.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What ground transportation do you provide?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>We arrange private airport chauffeur transfers in luxury SUVs or Mercedes Sprinter vans, exotic and luxury rental car reservations, and private island yacht transfers so you never wait in taxi lines.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           BLOCK 5: TRAVEL PROTECTION & POLICIES
+           ========================================== -->
+      <div class="faq-category-block" data-block-cat="policies">
+        <div class="faq-category-title-group">
+          <div class="faq-category-heading">
+            <i class="fa-solid fa-shield-halved text-pink"></i>
+            <span>Travel Protection & Policies</span>
+          </div>
+          <span class="badge badge-pink">4 Questions</span>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Why is Travel Protection insurance strongly recommended?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Life is unpredictable! Travel insurance protects your financial investment against unforeseen emergencies, sudden illness, family emergencies, hurricane or weather cancellations, flight delays, lost baggage, and overseas medical expenses. We include travel protection quotes with every proposal.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What happens if an airline delays or cancels my flight while traveling?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>This is when having Donaya in your corner is priceless. Instead of standing in a 200-person airport line, you message your advisor. We access professional agent rebooking channels, communicate directly with the airline, adjust your hotel check-in time, and modify your airport pickup without the stress.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do I need a passport for international trips?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. For all international destinations (Caribbean nations, Europe, UAE, Bali, Mexico), a valid passport with at least <strong>6 months of remaining validity</strong> past your departure date is required. For US territories (Puerto Rico, US Virgin Islands), US citizens only need a valid government-issued Real ID or driver's license.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is the cancellation and refund policy?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Cancellation policies are dictated by the underlying suppliers (airlines, resorts, villas, and charter companies). We clearly outline the cancellation timeline and non-refundable deposit dates in your proposal before you pay any money, ensuring full transparency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           BLOCK 6: THE BUSINESS MENTORSHIP
+           ========================================== -->
+      <div class="faq-category-block" data-block-cat="business">
+        <div class="faq-category-title-group">
+          <div class="faq-category-heading">
+            <i class="fa-solid fa-chart-line text-gold"></i>
+            <span>The Business Behind The Trips (Mentorship)</span>
+          </div>
+          <span class="badge badge-gold">4 Questions</span>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is "The Business Behind The Trips" mentorship program?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>It is Donaya's business mentorship program designed to show women how to launch their own travel business, partner with certified host agencies, earn commissions from travel bookings, and create another stream of income without quitting their 9–5 job.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do I need any previous travel agent experience to join?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>No prior experience is necessary! Our onboarding program provides turnkey supplier certifications (Marriott, Disney, Virgin, Royal Caribbean, Sandals), booking engine access, marketing playbooks, and 1-on-1 coaching with Donaya.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How do travel advisors earn commissions from bookings?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Travel suppliers automatically build commission margins into their retail pricing. When people book on Expedia or booking portals, those platforms pocket that commission. When clients book through you as a certified advisor, that commission (typically 70% to 80% split) is paid directly to you!</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How many hours a week do I need to invest?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Because you set your own schedule, most of our partners start part-time with <strong>5 to 10 hours a week</strong> in the evenings or on weekends alongside their full-time jobs. You can grow at your own pace.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           BLOCK 7: CROWN & CONTOUR STUDIOS
+           ========================================== -->
+      <div class="faq-category-block" data-block-cat="studios">
+        <div class="faq-category-title-group">
+          <div class="faq-category-heading">
+            <i class="fa-solid fa-wand-magic-sparkles text-pink"></i>
+            <span>Crown & Contour Studios (Hair & Beauty)</span>
+          </div>
+          <span class="badge badge-pink">2 Questions</span>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is Crown & Contour Studios?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Crown & Contour Studios is Donaya's luxury beauty brand created to help women look and feel their absolute best through luxury raw hair extensions, HD lace, and beauty essentials. Every product is curated so that every woman can wear her crown proudly.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can I order vacation hair extensions before my trip?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! We offer pre-vacation hair bundle consultations and ship vacation-ready luxury bundles and styling essentials that stay radiant and resilient through beach days, ocean dips, and tropical humidity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- "Still Have Questions?" Callout Banner -->
+  <section class="vip-cta-section">
+    <div class="container vip-cta-box">
+      <span class="badge badge-gold" style="margin-bottom: 1rem;">Direct Concierge Access</span>
+      <h2>Still Have a <span class="gradient-pink">Question?</span></h2>
+      <p>
+        Donaya is always happy to answer your specific travel questions or discuss your upcoming celebration. Reach out through any of our channels below.
+      </p>
+      <div style="display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          <i class="fa-brands fa-instagram"></i>
+          <span>DM "ESCAPE" on Instagram</span>
+        </a>
+        <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-gold btn-lg">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Open Official Jotform</span>
+        </a>
+        <a href="contact.html" class="btn btn-outline-pink btn-lg">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Custom Travel Inquiry</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img src="assets/icons/crown.svg" alt="Crown Logo" class="logo-icon-svg">
+            <div class="logo-text-group">
+              <span class="logo-title">CROWN & CONTOUR</span>
+              <span class="logo-subtitle">Escapes</span>
+            </div>
+          </div>
+          <p>
+            Curated escapes for the crowned woman. Stress-free, luxury travel experiences, VIP concert packages, and female entrepreneurship mentorship by Donaya.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="contact.html" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Services & Packages</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Donaya</a></li>
+            <li><a href="business.html"><i class="fa-solid fa-angle-right"></i> The Business Mentorship</a></li>
+            <li><a href="faq.html"><i class="fa-solid fa-angle-right"></i> FAQs</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Get In Touch</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Curated Escapes</h4>
+          <ul class="footer-links">
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Girls Trips & Baecations</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Birthday Getaways</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Concert & Event Packages</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Flights & 5-Star Stays</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Crown & Contour Studios</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Booking</h4>
+          <p style="font-size: 0.9rem; color: var(--color-muted); margin-bottom: 1rem;">
+            Ready to secure your dates? Use our official booking portal or DM us directly.
+          </p>
+          <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="width: 100%; margin-bottom: 0.75rem;">
+            <i class="fa-solid fa-file-lines"></i> Open Official Jotform
+          </a>
+          <span style="font-size: 0.8rem; color: var(--color-gold-light);">
+            <i class="fa-brands fa-instagram"></i> DM <strong>"ESCAPE"</strong> to plan
+          </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Crown & Contour LLC / Crown & Contour Escapes. All Rights Reserved.</div>
+        <div>Curated with <span class="text-pink">♥</span> for the Crowned Woman.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

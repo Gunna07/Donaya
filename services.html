@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services & Curated Packages | Crown & Contour Escapes</title>
+  <meta name="description" content="Explore bespoke travel packages: Girls Trips, Baecations, Birthday Getaways, Concert VIP Tours (Chris Brown, Usher), and 5-Star Hotel Curation by Donaya.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/crown.svg">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="display: none !important;">
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-item">
+        <span>👑</span>
+        <strong>NOW BOOKING 2026/2027 CURATED ESCAPES!</strong>
+      </div>
+      <div class="top-bar-item">
+        <span>✨</span>
+        <span>DM <strong>"ESCAPE"</strong> or</span>
+        <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener">Book Directly on Jotform</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo" aria-label="Crown and Contour Escapes Home">
+        <img src="assets/icons/crown.svg" alt="Crown Logo" class="logo-icon-svg">
+        <div class="logo-text-group">
+          <span class="logo-title">CROWN & CONTOUR</span>
+          <span class="logo-subtitle">Escapes</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link active">Services & Packages</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="business.html" class="nav-link">Join The Team</a></li>
+          <li><a href="faq.html" class="nav-link">FAQs</a></li>
+          <li><a href="contact.html" class="nav-link">Get In Touch</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-gem"></i>
+          <span>Book Escape</span>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle mobile menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <img src="assets/icons/crown.svg" alt="Crown Logo" class="logo-icon-svg">
+          <div class="logo-text-group">
+            <span class="logo-title">CROWN & CONTOUR</span>
+            <span class="logo-subtitle">Escapes</span>
+          </div>
+        </div>
+        <button class="drawer-close" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <ul class="drawer-menu">
+        <li><a href="index.html" class="drawer-link">Home</a></li>
+        <li><a href="services.html" class="drawer-link active">Services & Packages</a></li>
+        <li><a href="about.html" class="drawer-link">About</a></li>
+        <li><a href="business.html" class="drawer-link">Join The Team</a></li>
+        <li><a href="faq.html" class="drawer-link">FAQs</a></li>
+        <li><a href="contact.html" class="drawer-link">Get In Touch</a></li>
+      </ul>
+    </div>
+    <div class="drawer-footer">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-plane-departure"></i> Plan My Escape
+      </a>
+      <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-gold" style="width: 100%;">
+        <i class="fa-solid fa-calendar-check"></i> Instant Jotform Booking
+      </a>
+    </div>
+  </aside>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-angle-right" style="font-size: 0.75rem;"></i>
+        <span>Services & Curated Packages</span>
+      </div>
+      <span class="section-tag">Bespoke Offerings</span>
+      <h1 class="section-title">Everything You Need For The <span class="gradient-royal">Perfect Escape</span></h1>
+      <p class="section-desc" style="max-width: 680px; margin: 0 auto;">
+        From luxury private villas to VIP concert front-rows, we customize every flight, stay, and excursion so you travel stress-free.
+      </p>
+    </div>
+  </section>
+
+  <!-- Filterable Services Grid Section -->
+  <section style="padding: 4rem 0 6rem;">
+    <div class="container">
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-tab-btn active" data-filter="all">All Experiences</button>
+        <button class="filter-tab-btn" data-filter="girls-trip">Girls Trips</button>
+        <button class="filter-tab-btn" data-filter="baecation">Baecations</button>
+        <button class="filter-tab-btn" data-filter="birthday">Birthday Getaways</button>
+        <button class="filter-tab-btn" data-filter="concert">Concert Packages</button>
+        <button class="filter-tab-btn" data-filter="flights-stays">Flights & Stays</button>
+        <button class="filter-tab-btn" data-filter="beauty">Studios & Beauty</button>
+      </div>
+
+      <!-- Services List -->
+      <div class="services-showcase-grid">
+
+        <!-- Card 1: Girls Trips -->
+        <div class="service-box glass-panel service-card-item" data-category="girls-trip">
+          <div>
+            <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="assets/images/yacht-escape.jpg" alt="Girls Trip Yacht Celebration" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="service-box-header">
+              <div class="service-box-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+              <div>
+                <span class="badge badge-pink" style="margin-bottom: 0.4rem;">Group Luxury</span>
+                <h3>The Iconic Girls Trip</h3>
+                <p>Curated for 4–12 queens who want luxury, laughter, and zero group chat drama.</p>
+              </div>
+            </div>
+            <ul class="service-perk-list">
+              <li><i class="fa-solid fa-circle-check"></i> Private luxury villa rentals with oceanfront infinity pools</li>
+              <li><i class="fa-solid fa-circle-check"></i> Private yacht or catamaran charter with open bar & captain</li>
+              <li><i class="fa-solid fa-circle-check"></i> Individualized group payment schedules (no one left footing the bill)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Curated beach club cabana reservations & private chef dinners</li>
+            </ul>
+          </div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <a href="contact.html?vibe=girls-trip" class="btn btn-primary btn-sm" style="flex: 1;">Book This Escape</a>
+            <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-outline-gold btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 2: Romantic Baecation -->
+        <div class="service-box glass-panel service-card-item" data-category="baecation">
+          <div>
+            <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="assets/images/baecation-sunset.jpg" alt="Romantic Candlelit Baecation" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="service-box-header">
+              <div class="service-box-icon"><i class="fa-solid fa-heart"></i></div>
+              <div>
+                <span class="badge badge-gold" style="margin-bottom: 0.4rem;">Couple's Haven</span>
+                <h3>Romantic Baecations</h3>
+                <p>Intimate, romantic getaways crafted to celebrate love and deeper connection.</p>
+              </div>
+            </div>
+            <ul class="service-perk-list">
+              <li><i class="fa-solid fa-circle-check"></i> 5-star overwater bungalows & cliffside oceanfront suites</li>
+              <li><i class="fa-solid fa-circle-check"></i> Private candlelit sunset dinners directly on the white sand</li>
+              <li><i class="fa-solid fa-circle-check"></i> Side-by-side couples massage & spa retreat packages</li>
+              <li><i class="fa-solid fa-circle-check"></i> Rose petal turn-down service, champagne & strawberry arrivals</li>
+            </ul>
+          </div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <a href="contact.html?vibe=baecation" class="btn btn-primary btn-sm" style="flex: 1;">Book This Escape</a>
+            <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-outline-gold btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 3: Birthday Getaways -->
+        <div class="service-box glass-panel service-card-item" data-category="birthday">
+          <div>
+            <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="assets/images/santorini.jpg" alt="Birthday Getaway in Santorini" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="service-box-header">
+              <div class="service-box-icon"><i class="fa-solid fa-cake-candles"></i></div>
+              <div>
+                <span class="badge badge-pink" style="margin-bottom: 0.4rem;">Milestone Jubilee</span>
+                <h3>Birthday Getaways</h3>
+                <p>Turn another year older into an iconic memory worth celebrating in grand style.</p>
+              </div>
+            </div>
+            <ul class="service-perk-list">
+              <li><i class="fa-solid fa-circle-check"></i> VIP nightlife reservations with personalized sparkler bottle service</li>
+              <li><i class="fa-solid fa-circle-check"></i> Private professional photographer for birthday glam content</li>
+              <li><i class="fa-solid fa-circle-check"></i> Custom themed birthday itinerary books & welcome gift bags</li>
+              <li><i class="fa-solid fa-circle-check"></i> Luxury penthouse stays with panoramic city or ocean views</li>
+            </ul>
+          </div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <a href="contact.html?vibe=birthday" class="btn btn-primary btn-sm" style="flex: 1;">Book This Escape</a>
+            <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-outline-gold btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 4: Concert & Event Packages -->
+        <div class="service-box glass-panel service-card-item" data-category="concert">
+          <div>
+            <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="assets/images/concert-vip.jpg" alt="Concert VIP Lounge and Nightlife" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="service-box-header">
+              <div class="service-box-icon"><i class="fa-solid fa-ticket"></i></div>
+              <div>
+                <span class="badge badge-gold" style="margin-bottom: 0.4rem;">Chris Brown, Usher & Tours</span>
+                <h3>Concert & Event Packages</h3>
+                <p>Never worry about sold-out shows, flights, or hotel commutes. We bundle it all!</p>
+              </div>
+            </div>
+            <ul class="service-perk-list">
+              <li><i class="fa-solid fa-circle-check"></i> Guaranteed floor, lower bowl or suite VIP concert tickets</li>
+              <li><i class="fa-solid fa-circle-check"></i> Luxury hotel accommodations located minutes from the venue</li>
+              <li><i class="fa-solid fa-circle-check"></i> Round-trip flights & private ground transfers included</li>
+              <li><i class="fa-solid fa-circle-check"></i> VIP after-party reservations and exclusive nightlife entry</li>
+            </ul>
+          </div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <a href="contact.html?vibe=concert" class="btn btn-primary btn-sm" style="flex: 1;">Book This Escape</a>
+            <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-outline-gold btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 5: Flights & 5-Star Stays -->
+        <div class="service-box glass-panel service-card-item" data-category="flights-stays">
+          <div>
+            <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="assets/images/paris.jpg" alt="Luxury Hotel Paris Balcony" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="service-box-header">
+              <div class="service-box-icon"><i class="fa-solid fa-plane-departure"></i></div>
+              <div>
+                <span class="badge badge-pink" style="margin-bottom: 0.4rem;">Aviation & Hospitality</span>
+                <h3>Flights & Luxury Stays</h3>
+                <p>Best flight routing, airline perks, and curated 5-star & boutique hotel properties.</p>
+              </div>
+            </div>
+            <ul class="service-perk-list">
+              <li><i class="fa-solid fa-circle-check"></i> First, Business, and Comfort+ seating curation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Complimentary room upgrades & early check-in (subject to availability)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Daily gourmet breakfast credits & $100 resort credits</li>
+              <li><i class="fa-solid fa-circle-check"></i> VIP airport lounge passes and fast-track security access</li>
+            </ul>
+          </div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <a href="contact.html" class="btn btn-primary btn-sm" style="flex: 1;">Request Flight/Stay</a>
+            <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-outline-gold btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 6: Travel Add-Ons & Protection -->
+        <div class="service-box glass-panel service-card-item" data-category="flights-stays">
+          <div>
+            <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="assets/images/villa-hero.jpg" alt="Travel protection and concierge" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="service-box-header">
+              <div class="service-box-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <span class="badge badge-gold" style="margin-bottom: 0.4rem;">Peace Of Mind</span>
+                <h3>Add-Ons & Travel Protection</h3>
+                <p>Rental cars, airport transfers, excursions, and full insurance peace of mind.</p>
+              </div>
+            </div>
+            <ul class="service-perk-list">
+              <li><i class="fa-solid fa-circle-check"></i> Private Mercedes / SUV chauffeur airport pickups</li>
+              <li><i class="fa-solid fa-circle-check"></i> Pre-booked excursions: Jet skiing, ATVs, ziplining & wine tours</li>
+              <li><i class="fa-solid fa-circle-check"></i> Comprehensive travel insurance (trip cancellation, delay & health)</li>
+              <li><i class="fa-solid fa-circle-check"></i> 24/7 dedicated travel advisor helpline during your travels</li>
+            </ul>
+          </div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <a href="contact.html" class="btn btn-primary btn-sm" style="flex: 1;">Add To My Trip</a>
+            <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-outline-gold btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 7: Crown & Contour Studios -->
+        <div class="service-box glass-panel service-card-item" data-category="beauty">
+          <div>
+            <div style="height: 220px; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="assets/images/beauty-studio.jpg" alt="Crown and Contour Studios Hair Extensions" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="service-box-header">
+              <div class="service-box-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div>
+                <span class="badge badge-pink" style="margin-bottom: 0.4rem;">Crown & Contour Studios</span>
+                <h3>Vacation Hair & Beauty Essentials</h3>
+                <p>Wear your crown proudly. Luxury hair extensions and essentials curated for travelers.</p>
+              </div>
+            </div>
+            <ul class="service-perk-list">
+              <li><i class="fa-solid fa-circle-check"></i> 100% Raw Virgin Hair Bundles & HD Lace Wigs for vacation glam</li>
+              <li><i class="fa-solid fa-circle-check"></i> Humidity-resistant travel hair care products for beach & pool days</li>
+              <li><i class="fa-solid fa-circle-check"></i> Custom vacation styling consultations so your look stays regal</li>
+              <li><i class="fa-solid fa-circle-check"></i> Exclusive Crown & Contour travel beauty accessories</li>
+            </ul>
+          </div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <a href="about.html" class="btn btn-primary btn-sm" style="flex: 1;">Discover Studios</a>
+            <a href="contact.html" class="btn btn-outline-gold btn-sm"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- The 4-Step Curated Process -->
+  <section style="padding: 5rem 0; background: var(--bg-deep);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How It Works</span>
+        <h2 class="section-title">The 4-Step <span class="gradient-pink">Royal Treatment</span></h2>
+        <p class="section-desc">Experience seamless planning from your first inquiry to your first sunset toast.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-number">01</div>
+          <h4>Vibe Check & Consultation</h4>
+          <p>Tell us where you want to go, your travel dates, who you're traveling with, and your dream vibe. We analyze your desires and set the luxury standard.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-number">02</div>
+          <h4>Custom Itinerary Design</h4>
+          <p>Donaya personally curates 2–3 bespoke proposal options with hand-picked hotels, flights, and exclusive VIP activities tailored specifically to you.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-number">03</div>
+          <h4>Seamless Booking & Confirmation</h4>
+          <p>Once you select your favorite itinerary, we lock in reservations, secure upgrades, coordinate payment splits, and bundle your travel documents.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="step-number">04</div>
+          <h4>Show Up & Live The Soft Life</h4>
+          <p>Your bags are packed, airport transfers are waiting, and your vacation is completely stress-free. All you have to do is show up and enjoy!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Section: DIY vs Crown & Contour -->
+  <section class="comparison-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">DIY Planning vs. <span class="gradient-gold">Crown & Contour Escapes</span></h2>
+        <p class="section-desc">See the undeniable difference of having a dedicated luxury travel architect in your corner.</p>
+      </div>
+
+      <div class="comparison-table-wrapper">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th style="width: 35%;">Trip Element</th>
+              <th style="width: 30%;">DIY / Booking Solo</th>
+              <th style="width: 35%;" class="highlight-col text-gold">👑 Crown & Contour Escapes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Time Spent Planning</td>
+              <td>20–40+ hours comparing hotel reviews & flights</td>
+              <td class="highlight-col"><strong>Zero time wasted.</strong> Handled entirely for you.</td>
+            </tr>
+            <tr>
+              <td>Group Coordination</td>
+              <td>Awkward group chats, chasing friends for money</td>
+              <td class="highlight-col">Individual payment links & coordinated bookings.</td>
+            </tr>
+            <tr>
+              <td>Hotel Perks & Amenities</td>
+              <td>Standard booking, no upgrades or free breakfast</td>
+              <td class="highlight-col">Complimentary upgrades, credits, and VIP treatment.</td>
+            </tr>
+            <tr>
+              <td>Trip Security & Support</td>
+              <td>Waiting on hold with customer support if flights cancel</td>
+              <td class="highlight-col">24/7 dedicated advisor advocate on call.</td>
+            </tr>
+            <tr>
+              <td>Stress Level</td>
+              <td>Overwhelmed, anxious about logistics</td>
+              <td class="highlight-col text-pink"><strong>100% Soft Life. Pure relaxation.</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIP CTA Banner -->
+  <section class="vip-cta-section">
+    <div class="container vip-cta-box">
+      <span class="badge badge-gold" style="margin-bottom: 1rem;">Your Next Adventure Awaits</span>
+      <h2>Ready to Lock In Your <span class="gradient-pink">Curated Escape?</span></h2>
+      <p>Spots fill up quickly for prime travel dates and major concert tours. Don't leave your getaway to chance.</p>
+      <div style="display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-gold btn-lg">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Book on Jotform (Instant)</span>
+        </a>
+        <a href="contact.html" class="btn btn-outline-pink btn-lg">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Send Custom Inquiry</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img src="assets/icons/crown.svg" alt="Crown Logo" class="logo-icon-svg">
+            <div class="logo-text-group">
+              <span class="logo-title">CROWN & CONTOUR</span>
+              <span class="logo-subtitle">Escapes</span>
+            </div>
+          </div>
+          <p>
+            Curated escapes for the crowned woman. Stress-free, luxury travel experiences, VIP concert packages, and female entrepreneurship mentorship by Donaya.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="contact.html" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Services & Packages</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Donaya</a></li>
+            <li><a href="business.html"><i class="fa-solid fa-angle-right"></i> The Business Mentorship</a></li>
+            <li><a href="faq.html"><i class="fa-solid fa-angle-right"></i> FAQs</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Get In Touch</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Curated Escapes</h4>
+          <ul class="footer-links">
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Girls Trips & Baecations</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Birthday Getaways</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Concert & Event Packages</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Flights & 5-Star Stays</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Crown & Contour Studios</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Booking</h4>
+          <p style="font-size: 0.9rem; color: var(--color-muted); margin-bottom: 1rem;">
+            Ready to secure your dates? Use our official booking portal or DM us directly.
+          </p>
+          <a href="https://form.jotform.com/crowncontourllc/crownandcotourescapes" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="width: 100%; margin-bottom: 0.75rem;">
+            <i class="fa-solid fa-file-lines"></i> Open Official Jotform
+          </a>
+          <span style="font-size: 0.8rem; color: var(--color-gold-light);">
+            <i class="fa-brands fa-instagram"></i> DM <strong>"ESCAPE"</strong> to plan
+          </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Crown & Contour LLC / Crown & Contour Escapes. All Rights Reserved.</div>
+        <div>Curated with <span class="text-pink">♥</span> for the Crowned Woman.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
